@@ -1,0 +1,22 @@
+{
+  "name": "api_gateway",
+  "version": "1.0.0",
+  "description": "This is API gateway for micro services.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "express-device": "^0.4.2",
+    "fs": "0.0.1-security",
+    "helmet": "^3.21.2",
+    "http-proxy": "^1.18.0",
+    "moment": "^2.24.0",
+    "morgan": "^1.9.1",
+    "winston": "^3.2.1"
+  }
+}
